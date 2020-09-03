@@ -32,7 +32,8 @@
           <div class="audit">
             <!---->
             <div style="color:#004c99;font-size: 14px;" id="date"></div>
-            <div style="color:#004c99;font-size: 14px;" id="campus"></div>
+            <div id="campus"></div>
+            <div style="color:#004c99;font-size: 14px;" id="building"></div>            
             <!---->
             <div class="audit-status success"></div></div>
         </div>
@@ -80,7 +81,9 @@
        
         // 设置校区
         var campus = document.getElementById("campus");
-        campus.innerHTML = "新上院";
+        campus.innerHTML = "徐汇校区";      
+        var building = document.getElementById("building");
+        building.innerHTML = "新上院";
         //var gateno = document.getElementById("gateno");
         //gateno.innerHTML = "(五号门)";      
 
